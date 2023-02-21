@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Hotels</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Container wrapper -->
+        <div class="container">
+            <!-- Navbar brand -->
+            <a class="navbar-brand" href="#"><img id="MDB-logo" src="./images/logo.jpg" alt="MDB Logo" draggable="false"
+                    height="30" width="30" /></a>
+
+
+            <ul class="navbar-nav ms-3">
+                <li class="nav-item me-3">
+                    <a class="nav-link d-flex align-items-center" href="#room">Rooms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center me-3" href="#booknow">
+                        <i class="fas fa-bookmark pe-2"></i> Bookings
+                    </a>
+                </li>
+                <li class="nav-item" style="width: 65px;">
+                    <a class="nav-link d-flex align-items-center" href="#!">Sign In</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Collapsible wrapper -->
+        </div>
+        <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/h1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/hotel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/h3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <h2 class="main2" id="photos">
+        <pre>An Experience Like Never Before</pre>
+    </h2>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100 w-100">
+                <img src="./images/dish1.jpg" height="300" width="400" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Enjoy Best Food</h5>
+                    <p class="card-text">We offer a Multitude Of Dining Options, From Casual Bistro To Market Style Restaurant And Stylish Bar. 
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 w-100">
+                <img src="./images/bg1.jpg" height="300" width="400" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Enjoy your Vacation</h5>
+                    <p class="card-text">Enjoy your Quality time with your friends and family</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h- w-100">
+                <img src="./images/card3.jpg" height="300" width="400" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Enjoy Best Deals</h5>
+                    <p class="card-text">Get best deals at best prices</p><br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <h2 class="main2" id="room">
+        <pre>Best in Class Rooms</pre>
+    </h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h- w-100">
+                <img src="./images/club.jpg" height="300" width="400" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Club Rooms</h5>
+                    <p class="card-text">Club Rooms offer complimentary access to the club lounge.Clubs use clubrooms to conduct their activities.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h- w-100">
+                <img src="./images/presidential.jpg" height="300" width="400" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Presidential Suites</h5>
+                    <p class="card-text">Presidential suites are offer elegant, stylish and super luxurious interior in the best location of the hotel related to view and privacy together. 
+                        This suite is biggest and most spacious.</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h- w-100">
+                <img src="./images/sea.jpg" height="300" width="400" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sea Facing</h5>
+                    <p class="card-text">Waking up to the cool breeze that gushes from the windows to glaring at the sunrays that shine on the beautiful sea water,
+                        this is how luxury living can be defined.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="main2" id="booknow">Book Now</h2>
+    <form action="form.html" method="post">
+        <table class="table3" style="background-color: #e2e2e2">
+            <tr>
+                <td height="100">
+                    <label for="fname">First Name</label>
+                    <input type="text" name="fname" required />
+                </td>
+                <td height="100">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" required />
+                </td>
+            </tr>
+            <tr>
+                <td height="100">
+                    <label for="phone">Phone</label>
+                    <input type="number" name="phone" required />
+                </td>
+                <td height="100">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="stay">Stay:</label>
+                    <input type="number" name="stay" />
+                </td>
+                <td height="100">
+                    <label for="suite">Suite:</label>
+                    <select name="suite">
+                        <option>Presidential</option>
+                        <option>Couple</option>
+                        <option>Sea-facing</option>
+                        <option>Club</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <div style="text-align: center">
+            <input type="submit" value="BOOK MY ROOM!" class="submit" />
+        </div>
+    </form>
+
+
+
+</body>
+
+</html>

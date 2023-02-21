@@ -1,0 +1,143 @@
+.navbar-dark .nav-item .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.fa-li {
+  position: relative;
+  left: 0;
+}
+
+
+
+
+
+.mainbody h1 {
+  font-family: "Montserrat-Bold";
+  color: antiquewhite;
+  padding-top: 50px;
+  margin-top: 150px;
+}
+
+.mainbody {
+  background-image: url(photos/bg1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.photosbody {
+  background-color: #acacac;
+}
+
+.mainpara {
+  margin-left: 125px;
+  margin-right: 125px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.logo {
+  height: 150px;
+  width: 200px;
+  margin-top: 35px;
+  margin-left: 35px;
+}
+.links {
+  float: right;
+  list-style: none;
+  margin-top: 35px;
+  margin-right: 35px;
+}
+.links li {
+  display: inline-block;
+}
+.links li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+
+.links li a:hover {
+  border: 1px solid white;
+  background-color: #f7a59f;
+}
+
+.main {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 350px;
+}
+.main2 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.photo1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.photo2 {
+  margin-top: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.table2 {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.table2 td {
+  text-align: center;
+  vertical-align: text-top;
+  text-transform: uppercase;
+}
+
+.table3 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  border-collapse: collapse;
+
+}
+
+.table3 td {
+  text-align: center;
+}
+
+.submit {
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.formtable{
+  align-content: center;
+}
+
+.formbody {
+  background-color: antiquewhite;
+  text-align: center;
+  margin-top: 200px;
+}
